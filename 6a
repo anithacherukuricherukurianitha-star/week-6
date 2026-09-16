@@ -1,0 +1,20 @@
+
+              ),
+            ),
+            const SizedBox(height: 10),
+            ElevatedButton(
+              onPressed: _increment,
+              child: const Text('Increment'),
+            ),
+            const SizedBox(height: 8),
+            ElevatedButton(
+              onPressed: _decrement,
+              child: const Text('Decrement'),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
